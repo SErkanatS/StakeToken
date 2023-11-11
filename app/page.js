@@ -46,7 +46,7 @@ export default function Home() {
   useEffect(() => {
     setInterval(() => {
       refetchStakeInfo();
-    }, 10000);
+    }, 1000);
   }, []);
 
   function resetValue() {
